@@ -5,7 +5,7 @@ public class operator {
         int a = 10;
         int b = 5;
         int add , sub , div , mul;
-
+    //arithmatic operators
         add = a + b;
         sub = a - b;
         div = a / b;
@@ -16,6 +16,13 @@ public class operator {
         System.out.println("Division = "  +div);
         System.out.println("Multiplication = "  +mul);
 
+    // Relational Operators
+
+        System.out.println(a > b);
+        System.out.println(a < b);
+        System.out.println(a >= b);
+        System.out.println(a <= b);
+        System.out.println(a == b);
 
 
     }
